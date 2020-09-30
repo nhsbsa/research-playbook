@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% from "article/macro.njk" import appArticle %}
+{% from "prose/macro.njk" import appProse %}
+
+{% block content %}
+  {% call appArticle({
+    header: {
+      title: title | widont
+    }
+  }) %}
+  {{ appProse({
+    prose: content
+  }) }}
+  {% endcall %}
+{% endblock %}

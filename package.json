@@ -1,0 +1,63 @@
+{
+  "name": "design-history",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "^10.0.0"
+  },
+  "description": "A place for documenting GOV.UK service designs",
+  "keywords": [
+    "becoming-a-teacher",
+    "govuk",
+    "11ty"
+  ],
+  "author": "Becoming a teacher team",
+  "license": "MIT",
+  "homepage": "https://design-history.herokuapp.com",
+  "repository": "github:DFE-Digital/govuk-design-history",
+  "bugs": "https://github.com/DFE-Digital/govuk-design-history/issues",
+  "scripts": {
+    "prebuild": "rm -rf public",
+    "build:files": "eleventy",
+    "build:javascripts": "rollup --config etc/rollup.config.js",
+    "build:styles": "node-sass app/_stylesheets -o public/stylesheets --include-path node_modules/govuk-frontend --include-path app",
+    "build": "npm-run-all --serial build:*",
+    "prewatch": "npm run build",
+    "watch:files": "eleventy --serve --quiet",
+    "watch:javascripts": "rollup --config etc/rollup.config.js --watch",
+    "watch:styles": "node-sass app/_stylesheets -o public/stylesheets --include-path node_modules/govuk-frontend --watch",
+    "watch": "npm-run-all --parallel watch:*",
+    "dev": "npm run watch",
+    "prestart": "npm run build",
+    "start": "npm run watch:files",
+    "test": "standard"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@rollup/plugin-commonjs": "^13.0.1",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "accessible-autocomplete": "^2.0.3",
+    "govuk-frontend": "^3.7.0",
+    "http-server": "^0.12.3",
+    "lodash": "^4.17.19",
+    "luxon": "^1.21.3",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-ins": "^3.0.0",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.4",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.21.0"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "webshot-node": "^0.18.2"
+  }
+}
