@@ -1,11 +1,11 @@
 $govuk-global-styles: true;
 $nhsuk-global-styles: true;
 
-@import "node_modules/nhsuk-frontend/packages/nhsuk";
-@import "node_modules/nhsuk-frontend/packages/core/all";
 @import "govuk/all.scss";
 @import "../_components/all.scss";
 @import "vendor/prism.scss";
+@import "node_modules/nhsuk-frontend/packages/nhsuk";
+@import "node_modules/nhsuk-frontend/packages/core/all";
 
 @include govuk-media-query($media-type: print) {
   // Force a white background when printing a page

@@ -5,9 +5,15 @@
 {% from "pagination/macro.njk" import appPagination %}
 {% from "prose/macro.njk" import appProse %}
 {% from "related/macro.njk" import appRelated %}
+{% from "packages/components/hero/macro.njk" import hero %}
 
 {% block main %}
-  {% call appMasthead({
+  {{ hero({
+    heading: "A design history for your NHSBSA service",
+    text: "Document and share design decisions. Create a permanent record of how your service has developed over time."
+  }) }}
+  {# Need to grab text from index.md
+   {% call appMasthead({
     classes: "app-masthead--large" if eleventyNavigation.key == "home",
     title: {
       html: title | widont
@@ -24,7 +30,7 @@
       items: collections.all,
       key: eleventyNavigation.key
     }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
-  {% endcall %}
+  {% endcall %} #}
 
   <div class="nhsuk-width-container">
     {% block beforeContent %}{% endblock %}
