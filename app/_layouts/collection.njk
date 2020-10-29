@@ -5,9 +5,15 @@
 {% from "pagination/macro.njk" import appPagination %}
 {% from "prose/macro.njk" import appProse %}
 {% from "related/macro.njk" import appRelated %}
+{% from "packages/components/hero/macro.njk" import hero %}
 
 {% block main %}
-  {% call appMasthead({
+  {{ hero({
+    heading: "A design history for your NHSBSA service",
+    text: "Document and share design decisions. Create a permanent record of how your service has developed over time."
+  }) }}
+  {# TO DO - Need to grab text from index.md
+   {% call appMasthead({
     classes: "app-masthead--large" if eleventyNavigation.key == "home",
     title: {
       html: title | widont
@@ -19,29 +25,29 @@
     image: image if image
   }) %}
     {{ appBreadcrumbs({
-      classes: "app-breadcrumbs--inverted govuk-!-display-none-print",
+      classes: "app-breadcrumbs--inverted nhsuk-!-display-none-print",
       title: title,
       items: collections.all,
       key: eleventyNavigation.key
     }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
-  {% endcall %}
+  {% endcall %} #}
 
-  <div class="govuk-width-container">
+  <div class="nhsuk-width-container">
     {% block beforeContent %}{% endblock %}
-    <main class="govuk-main-wrapper {{ mainClasses }}" id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
+    <main class="nhsuk-main-wrapper {{ mainClasses }}" id="main-content" role="main"{% if mainLang %} lang="{{ mainLang }}"{% endif %}>
     {% block content %}
       {{ appProse({
         prose: content
       }) }}
-      <div class="govuk-grid-row">
+      <div class="nhsuk-grid-row">
         {# Paginate posts if front matter includes the pagination key #}
         {% if pagination %}
-          <section class="govuk-grid-column-two-thirds">
-            <h2 class="govuk-heading-l govuk-!-font-size-27">
+          <section class="nhsuk-grid-column-two-thirds">
+            <h2 class="nhsuk-heading-l nhsuk-!-font-size-27">
               {{ posts.title or app.posts.title or "Posts" }}
             </h2>
             {{ appDocumentList({
-              classes: "govuk-!-margin-bottom-6",
+              classes: "nhsuk-!-margin-bottom-6",
               items: pagination.items
             }) }}
             {{ appPagination({
@@ -58,7 +64,7 @@
             }) }}
           </section>
           {% if related %}
-            <div class="govuk-grid-column-one-third">
+            <div class="nhsuk-grid-column-one-third">
               {{ appRelated({
                 title: related.title or "Related links",
                 items: related.items
@@ -67,17 +73,17 @@
           {% endif %}
         {# List sections (pages whose parent is `home`) if homepage with no pagination key set #}
         {% elif eleventyNavigation.key == "home" %}
-          <div class="govuk-grid-column-full">
-            <h2 class="govuk-heading-l govuk-!-font-size-27">
+          <div class="nhsuk-grid-column-full">
+            <h2 class="nhsuk-heading-l nhsuk-!-font-size-27">
               {{ sections.title or app.sections.title or "Sections" }}
             </h2>
           </div>
           {% for item in collections.all | eleventyNavigation("home") %}
-            <section class="govuk-grid-column-one-half govuk-!-margin-bottom-6">
-              <h3 class="govuk-heading-m govuk-!-margin-bottom-1">
+            <section class="nhsuk-grid-column-one-half nhsuk-!-margin-bottom-6">
+              <h3 class="nhsuk-heading-m nhsuk-!-margin-bottom-1">
                 <a href="{{ item.url | url | pretty }}">{{ item.title }}</a>
               </h3>
-              <p class="govuk-body">{{ item.excerpt }}</p>
+              <p class="nhsuk-body">{{ item.excerpt }}</p>
             </section>
           {% endfor %}
         {% endif %}

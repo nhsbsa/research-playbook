@@ -1,0 +1,26 @@
+.app-ogl-footer {
+    background-color: #d8dde0;
+   }
+   .app-ogl-footer--text {
+    svg {
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+    }
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.71429;
+    padding-bottom: 24px;
+    color: #4c6272;
+    margin-bottom: 0;
+    padding-bottom: 24px;
+   }
+   @media (min-width: 40.0625em) {
+    .app-ogl-footer--text {
+    padding-bottom: 32px;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    }
+}
