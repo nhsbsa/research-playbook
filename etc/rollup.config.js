@@ -16,5 +16,9 @@ module.exports = [{
   output: {
     file: 'public/javascripts/govuk-frontend.js'
   },
+  input: 'node_modules/nhsuk-frontend/dist/nhsuk.js',
+  output: {
+    file: 'public/javascripts/nhsuk-frontend.js'
+  },
   context: 'window'
 }]

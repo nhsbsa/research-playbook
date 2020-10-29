@@ -39,7 +39,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('./app/documents');
   eleventyConfig.addPassthroughCopy('./app/images');
   eleventyConfig.addPassthroughCopy({
-    'node_modules/govuk-frontend/govuk/assets': 'assets'
+    'node_modules/nhsuk-frontend/packages/assets': 'assets'
   });
 
   // Enable data deep merge

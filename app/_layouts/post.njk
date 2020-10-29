@@ -14,15 +14,15 @@
       modified: modified if modified
     }
   }) %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
+  <div class="nhsuk-grid-row">
+    <div class="nhsuk-grid-column-two-thirds">
       {{ appProse({
         prose: content
       }) }}
     </div>
 
     {% if related %}
-    <div class="govuk-grid-column-one-third">
+    <div class="nhsuk-grid-column-one-third">
       {{ appRelated({
         title: related.title or "Related links",
         items: related.items
