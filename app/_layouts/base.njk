@@ -1,10 +1,10 @@
-{% extends "nhs-template.njk" %}
+{% extends "nhsuk-template.njk" %}
 
 {% set htmlClasses = 'no-js' %}
 
 {% from "header/macro.njk" import appHeader %}
 {% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
-{% from "packages/components/footer/macro.njk" import footer %}
+{% from "ogl-footer/macro.njk" import oglFooter %}
 
 
 {% block head %}
@@ -16,7 +16,7 @@
 {% endblock %}
 
 {% block pageTitle %}
-  {% if title %}{{ title }} - {% endif %}{{ app.serviceName or app.productName }} - GOV.UK
+  {% if title %}{{ title }} - {% endif %}{{ app.serviceName or app.productName }} - NHSBSA
 {% endblock %}
 
 {% block header %}
@@ -38,7 +38,7 @@
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
 
-{{ footer({
+{{ oglFooter({
   "links": [
     {
       "URL": "https://www.nhs.uk/nhs-sites/",
@@ -62,7 +62,9 @@
     }
   ]
 })}}
-{# TO DO - delete in future {% block footer %}
+
+{# TO DO deleted when necessary 
+  {% block footer %}
   <div class="govuk-!-display-none-print">
     {{ govukFooter({
       meta: {
