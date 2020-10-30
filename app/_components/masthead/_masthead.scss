@@ -1,8 +1,8 @@
 .app-masthead {
-  @include govuk-responsive-padding(6, "top");
-  @include govuk-responsive-padding(6, "bottom");
-  color: govuk-colour("white");
-  background-color: govuk-colour("blue");
+  @include nhsuk-responsive-padding(6, "top");
+  @include nhsuk-responsive-padding(6, "bottom");
+  color: nhsuk-color("white");
+  background-color: nhsuk-color("blue");
   //margin-top: #{govuk-spacing(2) * -1};
 }
 
@@ -10,20 +10,21 @@
   color: inherit;
 }
 
+// title fails at size 36
 .app-masthead__title {
   @include govuk-font($size: 36, $weight: bold);
   margin-top: 0;
 
   .app-masthead--large & {
-    @include govuk-font($size: 48, $weight: "bold");
+    @include nhsuk-font($size: 48, $weight: "bold");
   }
 }
 
 .app-masthead__description * {
-  @include govuk-font($size: 19);
+  @include nhsuk-font($size: 19);
 
   .app-masthead--large * & {
-    @include govuk-font($size: 24);
+    @include nhsuk-font($size: 24);
   }
 }
 

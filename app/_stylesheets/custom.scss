@@ -1,0 +1,17 @@
+// Custom scss file
+ 
+// TODO remove gove styles so these aren't needed 
+ 
+/* Styles to override gov */
+a, p, div, span {
+    font-family: Frutiger W01, Arial, Sans-serif;
+   }
+    
+   a.nhsuk-footer__list-item-link {
+    color: #4c6272; 
+   }
+    
+   a.nhsuk-footer__list-item-link:visited {
+    color: #4c6272;
+   }
+   /* /. */
