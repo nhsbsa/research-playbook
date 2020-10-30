@@ -31,7 +31,8 @@
     @extend %nhsuk-list--bullet;
   }
 
-  a { //chane to nhs mix in
+  a { 
+    // TODO change to nhs mixin
     @extend %govuk-link;
   }
 

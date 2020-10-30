@@ -2,7 +2,7 @@
 .app-screenshots__screenshot {
   margin-bottom: nhsuk-spacing(9);
 }
-// need nhs media querry
+// TODO nhs media query?
 @include govuk-media-query($media-type: print) {
   // Separate screenshots from surrounding content
   .app-screenshots {

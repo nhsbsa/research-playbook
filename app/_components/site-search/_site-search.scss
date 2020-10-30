@@ -11,14 +11,14 @@
 }
 
 $icon-size: 40px;
-//gov mix in needed
+// TODO nhs mixin?
 @include govuk-not-ie8 {
   .app-site-search {
     position: relative;
     width: 100%;
     margin-bottom: govuk-spacing(2);
     float: left;
-//gov mix in needed
+    // TODO nhs mixin?
     @include govuk-media-query($from: 900px) {
       float: right;
       margin: 0;
@@ -28,11 +28,11 @@ $icon-size: 40px;
 
     .no-js & {
       display: none;
-//gov mix in needed
+      //TODO nhs mixin?
       @include govuk-media-query($from: tablet) {
         display: block;
       }
-//gov mix in needed
+      // TODO nhs mixin?
       @include govuk-media-query($from: 900px) {
         text-align: right;
       }
@@ -115,7 +115,7 @@ $icon-size: 40px;
     z-index: 100;
     top: 100%;
     left: 0;
-    // doesnt like being changed to gov
+    // TODO nhsuk color
     box-shadow: rgba(govuk-colour("black"), .256863) 0 2px 6px;
   }
 
@@ -177,7 +177,7 @@ $icon-size: 40px;
     display: none;
 
     .no-js & {
-      //gov mix in needed
+      // TODO nhs mixin?
       @include govuk-media-query($from: tablet) {
         display: inline-block;
         color: govuk-colour("white");
@@ -186,7 +186,7 @@ $icon-size: 40px;
           color: govuk-colour("black");
         }
       }
-//gov mix in needed
+      // TODO nhs mixin?
       @include govuk-media-query($from: 900px) {
         margin-top: 10px;
       }
@@ -220,7 +220,7 @@ $icon-size: 40px;
 
 // on IE8 we show the sitemap link as Accessible autocomplete
 // does not support it
-//gov mix in needed
+//TODO nhs mixin?
 @include govuk-if-ie8 {
   .app-site-search {
     width: 300px;

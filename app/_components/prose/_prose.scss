@@ -53,7 +53,7 @@
     text-decoration-style: dotted;
   }
 
-  code { // ToDo, make nhs-uk mix ins.
+  code { 
     background-color: #ffffff;
     font-family: monospace;
     padding: 2px nhsuk-spacing(1);
@@ -93,7 +93,7 @@
   }
 
   a:not([class]) {
-    //doesnt like this being changed
+    // TODO see if we need an nhsuk-link
     @extend %govuk-link;
   }
 
@@ -121,13 +121,13 @@
     }
 
     th {
-      // nhs mix in for header
+      // TODO see if we need an nhs style
       @extend .govuk-table__header;
       padding: nhsuk-spacing(2);
     }
 
     td {
-      // nhs mix in for cell
+      // TODO see if we need an nhs style
       @extend .govuk-table__cell;
       padding: nhsuk-spacing(2);
     }
