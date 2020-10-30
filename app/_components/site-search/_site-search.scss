@@ -11,14 +11,14 @@
 }
 
 $icon-size: 40px;
-//nhs mix in needed
+//gov mix in needed
 @include govuk-not-ie8 {
   .app-site-search {
     position: relative;
     width: 100%;
-    margin-bottom: nhsuk-spacing(2);
+    margin-bottom: govuk-spacing(2);
     float: left;
-//nhs mix in needed
+//gov mix in needed
     @include govuk-media-query($from: 900px) {
       float: right;
       margin: 0;
@@ -28,11 +28,11 @@ $icon-size: 40px;
 
     .no-js & {
       display: none;
-//nhs mix in needed
+//gov mix in needed
       @include govuk-media-query($from: tablet) {
         display: block;
       }
-//nhs mix in needed
+//gov mix in needed
       @include govuk-media-query($from: 900px) {
         text-align: right;
       }
@@ -54,9 +54,9 @@ $icon-size: 40px;
     width: 100%;
     height: $icon-size;
     margin-bottom: 0; // BUG: Safari 10 on macOS seems to add an implicit margin.
-    padding: nhsuk-spacing(1);
-    padding-left: $icon-size - nhsuk-spacing(1);
-    border: 2px solid nhsuk-color("white");
+    padding: govuk-spacing(1);
+    padding-left: $icon-size - govuk-spacing(1);
+    border: 2px solid govuk-colour("white");
     border-radius: 0; // Safari 10 on iOS adds implicit border rounding.
     background: transparent;
     -webkit-appearance: none;
@@ -64,7 +64,7 @@ $icon-size: 40px;
 
   .app-site-search__hint {
     position: absolute;
-    color: nhsuk-color("mid-grey");
+    color: govuk-colour("mid-grey");
   }
 
   .app-site-search__input {
@@ -72,12 +72,12 @@ $icon-size: 40px;
   }
 
   .app-site-search__input--focused {
-    outline: 3px solid $nhsuk-focus-color;
+    outline: 3px solid $govuk-focus-colour;
     outline-offset: -2px;
   }
 
   .app-site-search__input--show-all-values {
-    padding: nhsuk-spacing(1) 34px nhsuk-spacing(1) nhsuk-spacing(1);
+    padding: govuk-spacing(1) 34px govuk-spacing(1) govuk-spacing(1);
     cursor: pointer;
   }
 
@@ -85,7 +85,7 @@ $icon-size: 40px;
     display: inline-block;
     position: absolute;
     z-index: -1;
-    top: nhsuk-spacing(2);
+    top: govuk-spacing(2);
     right: 8px;
     width: 24px;
     height: 24px;
@@ -98,8 +98,8 @@ $icon-size: 40px;
     padding: 0;
     overflow-x: hidden;
     border-top: 0;
-    color: nhsuk-color("black");
-    background-color: nhsuk-color("white");
+    color: govuk-colour("black");
+    background-color: govuk-colour("white");
   }
 
   .app-site-search__menu--visible {
@@ -115,7 +115,7 @@ $icon-size: 40px;
     z-index: 100;
     top: 100%;
     left: 0;
-    // doesnt like being changed to nhs
+    // doesnt like being changed to gov
     box-shadow: rgba(govuk-colour("black"), .256863) 0 2px 6px;
   }
 
@@ -126,8 +126,8 @@ $icon-size: 40px;
   .app-site-search__option {
     display: block;
     position: relative;
-    padding: nhsuk-spacing(2);
-    border-bottom: solid nhsuk-color("mid-grey");
+    padding: govuk-spacing(2);
+    border-bottom: solid govuk-colour("mid-grey");
     border-width: 1px 0;
     cursor: pointer;
   }
@@ -151,10 +151,10 @@ $icon-size: 40px;
 
   .app-site-search__option--focused,
   .app-site-search__option:hover {
-    border-color: nhsuk-color("blue");
+    border-color: govuk-colour("blue");
     outline: none;
-    color: nhsuk-color("white");
-    background-color: nhsuk-color("blue");
+    color: govuk-colour("white");
+    background-color: govuk-colour("blue");
 
     .app-site-search--section {
       color: inherit;
@@ -162,8 +162,8 @@ $icon-size: 40px;
   }
 
   .app-site-search__option--no-results {
-    color: nhsuk-color("dark-grey");
-    background-color: nhsuk-color("white");
+    color: govuk-colour("dark-grey");
+    background-color: govuk-colour("white");
     cursor: not-allowed;
   }
 
@@ -177,16 +177,16 @@ $icon-size: 40px;
     display: none;
 
     .no-js & {
-      //nhs mix in needed
+      //gov mix in needed
       @include govuk-media-query($from: tablet) {
         display: inline-block;
-        color: nhsuk-color("white");
+        color: govuk-colour("white");
 
         &:focus {
-          color: nhsuk-color("black");
+          color: govuk-colour("black");
         }
       }
-//nhs mix in needed
+//gov mix in needed
       @include govuk-media-query($from: 900px) {
         margin-top: 10px;
       }
@@ -195,12 +195,12 @@ $icon-size: 40px;
 
   .app-site-search--section {
     display: block;
-    @include nhsuk-font($size: 16);
-    color: $nhsuk-secondary-text-color;
+    @include govuk-font($size: 16);
+    color: $govuk-secondary-text-colour;
   }
 
   .app-site-search__aliases {
-    margin-left: nhsuk-spacing(1);
+    margin-left: govuk-spacing(1);
 
     &::before {
       content: "(";
@@ -213,14 +213,14 @@ $icon-size: 40px;
 
   .app-site-search__separator {
     display: inline-block;
-    margin-right: nhsuk-spacing(1);
-    margin-left: nhsuk-spacing(1);
+    margin-right: govuk-spacing(1);
+    margin-left: govuk-spacing(1);
   }
 }
 
 // on IE8 we show the sitemap link as Accessible autocomplete
 // does not support it
-//nhs mix in needed
+//gov mix in needed
 @include govuk-if-ie8 {
   .app-site-search {
     width: 300px;
@@ -233,10 +233,10 @@ $icon-size: 40px;
   .app-site-search__link:link {
     display: inline-block;
     margin-top: 10px;
-    color: nhsuk-color("white");
+    color: govuk-colour("white");
 
     &:focus {
-      color: nhsuk-color("black");
+      color: govuk-colour("black");
     }
   }
 }
