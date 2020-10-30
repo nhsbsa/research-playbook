@@ -1,49 +1,49 @@
 .app-prose {
-  @include govuk-font($size: false);
+  @include nhsuk-font($size: false);
 
   h1:not([class]) {
-    @extend %govuk-heading-xl;
+    @extend %nhsuk-heading-xl;
     max-width: 40rem;
   }
 
   h2:not([class]) {
-    @extend %govuk-heading-l;
+    @extend %nhsuk-heading-l;
     max-width: 40rem;
   }
 
   h3:not([class]) {
-    @extend %govuk-heading-m;
+    @extend %nhsuk-heading-m;
     max-width: 40rem;
   }
 
   h4:not([class]) {
-    @extend %govuk-heading-s;
+    @extend %nhsuk-heading-s;
     max-width: 40rem;
   }
 
   h5:not([class]) {
-    @include govuk-font($size: 19);
-    @include govuk-responsive-margin(4, "bottom");
+    @include nhsuk-font($size: 19);
+    @include nhsuk-responsive-margin(4, "bottom");
     margin-top: 0;
-    color: $govuk-secondary-text-colour;
+    color: $nhsuk-secondary-text-color;
   }
 
   h6:not([class]) {
-    @include govuk-font($size: 16);
-    @include govuk-responsive-margin(4, "bottom");
+    @include nhsuk-font($size: 16);
+    @include nhsuk-responsive-margin(4, "bottom");
     margin-top: 0;
-    color: $govuk-secondary-text-colour;
+    color: $nhsuk-secondary-text-color;
   }
 
   p,
   dl,
   blockquote p {
-    @extend %govuk-body-m;
+    @extend %nhsuk-body-m;
     max-width: 40rem;
   }
 
   > blockquote {
-    @extend .govuk-inset-text;
+    @extend .nhsuk-inset-text;
     margin-left: 0;
     margin-right: 0;
   }
@@ -53,24 +53,26 @@
     text-decoration-style: dotted;
   }
 
-  code {
-    background-color: govuk-colour("light-grey");
+  code { // ToDo, make nhs-uk mix ins.
+    background-color: #ffffff;
     font-family: monospace;
-    padding: 2px govuk-spacing(1);
+    padding: 2px nhsuk-spacing(1);
+    // this is also used for the text in the code snippets on _prism.scss
+    color: 	#d14;
   }
 
   mark {
-    background-color: govuk-colour("yellow");
+    background-color: nhsuk-color("yellow");
   }
 
   strong,
   b,
   dt {
-    @include govuk-typography-weight-bold;
+    @include nhsuk-typography-weight-bold;
   }
 
   dd + dt {
-    margin-top: govuk-spacing(4);
+    margin-top: nhsuk-spacing(4);
   }
 
   dd {
@@ -78,53 +80,56 @@
   }
 
   ol {
-    @extend %govuk-list;
-    @extend %govuk-list--number;
+    @extend %nhsuk-list;
+    @extend %nhsuk-list--number;
     max-width: 40rem;
   }
 
   ul:not([class]),
   .table-of-contents ul {
-    @extend %govuk-list;
-    @extend %govuk-list--bullet;
+    @extend %nhsuk-list;
+    @extend %nhsuk-list--bullet;
     max-width: 40rem;
   }
 
   a:not([class]) {
+    //doesnt like this being changed
     @extend %govuk-link;
   }
 
   hr {
-    @extend %govuk-section-break;
-    @extend %govuk-section-break--visible;
-    @extend %govuk-section-break--xl;
+    @extend %nhsuk-section-break;
+    @extend %nhsuk-section-break--visible;
+    @extend %nhsuk-section-break--xl;
   }
 
   table {
-    @extend .govuk-table;
-    @include govuk-responsive-margin(8, "bottom");
-    @include govuk-responsive-margin(8, "top");
+    @extend .nhsuk-table;
+    @include nhsuk-responsive-margin(8, "bottom");
+    @include nhsuk-responsive-margin(8, "top");
 
     tr {
-      @extend .govuk-table__row !optional;
+      @extend .nhsuk-table__row !optional;
     }
 
     tbody {
-      @extend .govuk-table__body !optional;
+      @extend .nhsuk-table__body !optional;
     }
 
     thead {
-      @extend .govuk-table__head !optional;
+      @extend .nhsuk-table__head !optional;
     }
 
     th {
+      // nhs mix in for header
       @extend .govuk-table__header;
-      padding: govuk-spacing(2);
+      padding: nhsuk-spacing(2);
     }
 
     td {
+      // nhs mix in for cell
       @extend .govuk-table__cell;
-      padding: govuk-spacing(2);
+      padding: nhsuk-spacing(2);
     }
 
     td *:first-child {
@@ -141,10 +146,10 @@
     }
   }
 
-  pre {
-    @extend %govuk-body-m;
-    background-color: govuk-colour("light-grey");
-    padding: govuk-spacing(4);
+  pre { // add nhsuk mix in
+    @extend %nhsuk-body-m;
+    background-color: #ffffff;
+    padding: nhsuk-spacing(4);
     overflow: scroll;
   }
 
@@ -154,21 +159,21 @@
   }
 
   pre + h2 {
-    padding-top: govuk-spacing(4);
+    padding-top: nhsuk-spacing(4);
   }
 
   pre + h3,
   pre + h4 {
-    padding-top: govuk-spacing(2);
+    padding-top: nhsuk-spacing(2);
   }
 
   img {
-    @include govuk-responsive-margin(4, "bottom");
+    @include nhsuk-responsive-margin(4, "bottom");
     display: block;
     width: 100%;
     max-width: 100%;
     height: 100%;
-    outline: 1px solid rgba($govuk-border-colour, 0.5);
+    outline: 1px solid rgba($nhsuk-border-color, 0.5);
     outline-offset: -1px;
   }
 
@@ -180,7 +185,7 @@
     text-decoration: none;
     font-style: italic;
     font-weight: normal;
-    color: govuk-colour("mid-grey");
+    color: nhsuk-color("mid-grey");
     margin-right: 0.1em;
 
     @media (min-width: 1050px) {
@@ -190,7 +195,7 @@
     }
 
     &:hover {
-      color: $govuk-link-hover-colour;
+      color: $nhsuk-link-hover-color;
     }
   }
 

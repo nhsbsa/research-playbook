@@ -4,9 +4,9 @@
 }
 
 .app-document-list__item {
-  border-bottom: 1px solid $govuk-border-colour;
-  margin-bottom: govuk-spacing(4);
-  padding-bottom: govuk-spacing(4);
+  border-bottom: 1px solid $nhsuk-border-color;
+  margin-bottom: nhsuk-spacing(4);
+  padding-bottom: nhsuk-spacing(4);
 
   &:last-child {
     border-bottom: 0;
@@ -16,8 +16,8 @@
 }
 
 .app-document-list__item-title {
-  @include govuk-font($size: 24, $weight: "bold");
-  margin: 0 0 govuk-spacing(1);
+  @include nhsuk-font($size: 24, $weight: "bold");
+  margin: 0 0 nhsuk-spacing(1);
 }
 
 .app-document-list__item-metadata {
@@ -26,14 +26,14 @@
 }
 
 .app-document-list__item-description {
-  @include govuk-font($size: 19);
-  margin: govuk-spacing(1) 0;
+  @include nhsuk-font($size: 19);
+  margin: nhsuk-spacing(1) 0;
 }
 
 .app-document-list__attribute {
-  @include govuk-font($size: 16);
-  color: $govuk-secondary-text-colour;
+  @include nhsuk-font($size: 16);
+  color: $nhsuk-secondary-text-color;
   display: inline-block;
   margin: 0;
-  padding-right: govuk-spacing(4);
+  padding-right: nhsuk-spacing(4);
 }
