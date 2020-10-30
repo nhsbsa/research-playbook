@@ -54,6 +54,7 @@
   }
 
   code { 
+    // TODO color mixin not working here
     background-color: #ffffff;
     font-family: monospace;
     padding: 2px nhsuk-spacing(1);
@@ -62,7 +63,7 @@
   }
 
   mark {
-    background-color: nhsuk-color("yellow");
+    background-color:	#ffeb3b;
   }
 
   strong,
@@ -146,7 +147,8 @@
     }
   }
 
-  pre { // add nhsuk mix in
+  pre { 
+    // TODO nhsuk color mixin
     @extend %nhsuk-body-m;
     background-color: #ffffff;
     padding: nhsuk-spacing(4);
