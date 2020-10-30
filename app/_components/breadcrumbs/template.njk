@@ -1,5 +1,6 @@
 {% set items = params.items | eleventyNavigationBreadcrumb(params.key) %}
-<nav class="nhsuk-breadcrumb{%- if params.classes %} {{ params.classes }}{% endif %}">
+<nav class="nhsuk-breadcrumb{%- if params.classes %} {{ params.classes }}{% endif %}" aria-label="Breadcrumb"
+{%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
   <div class="nhsuk-width-container">
     <ol class="nhsuk-breadcrumb__list">
     {%- for item in items %}
@@ -9,5 +10,8 @@
     {%- endfor %}
       <li class="nhsuk-breadcrumb__item" aria-current="page">{{ params.title }}</li>
     </ol>
+    {# TODO - Not currently working 
+      <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="{{ params.url | url | pretty }}">Back to {{ params.title }}</a></p>
+     #}
   </div>
 </nav>
