@@ -1,5 +1,5 @@
 .app-embed {
-  @include govuk-responsive-margin(4, "bottom");
+  @include nhsuk-responsive-margin(4, "bottom");
   align-items: center;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@
     height: 100%;
     position: absolute;
     width: 100%;
-    outline: 1px solid rgba($govuk-border-colour, 0.5);
+    outline: 1px solid rgba($nhsuk-border-color, 0.5);
     outline-offset: -1px;
   }
 

@@ -1,10 +1,11 @@
+// Add nhsuk mix ins
 $token-comment: rgba(govuk-colour("dark-grey"), 0.75);
 $token-operator: govuk-colour("dark-grey");
 $token-function: #900;
-$token-keyword: #09c;
+$token-keyword: #000080;
 $token-selector: #009;
-$token-string: #c06;
-$token-variable: #399;
+$token-string: #d14;
+$token-variable: #007F80;
 
 .token.namespace {
   opacity: 0.7;

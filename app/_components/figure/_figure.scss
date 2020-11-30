@@ -1,17 +1,17 @@
 .app-figure {
   margin: 0;
-  @include govuk-responsive-margin(8, "bottom");
+  @include nhsuk-responsive-margin(8, "bottom");
 
   > a {
     display: block;
-    outline: 1px solid rgba($govuk-border-colour, 0.5);
+    outline: 1px solid rgba($nhsuk-border-color, 0.5);
 
     &:hover {
-      outline-color: $govuk-link-hover-colour;
+      outline-color: $nhsuk-link-hover-color;
     }
 
     &:active {
-      outline-color: $govuk-link-active-colour;
+      outline-color: $nhsuk-link-active-color;
     }
   }
 
@@ -20,15 +20,15 @@
   }
 
   .app-figure__caption {
-    @include govuk-responsive-margin(4, "top");
-    @include govuk-font($size: 19);
+    @include nhsuk-responsive-margin(4, "top");
+    @include nhsuk-font($size: 19);
 
     h3 {
-      @extend %govuk-heading-s;
+      @extend %nhsuk-heading-s;
     }
 
     hr {
-      @extend %govuk-section-break--m;
+      @extend %nhsuk-section-break--m;
     }
   }
 
