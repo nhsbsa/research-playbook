@@ -1,6 +1,9 @@
-# Design history for GOV.UK services
+# Design history for NHSBSA services
 
-A place for you to document your GOV.UK service designs.
+A place for you to document your NHSBSA service designs.
+<https://nhsbsa-design-history.netlify.app/>
+
+Based on the GOV.UK design history. 
 
 <https://design-history.herokuapp.com>
 
@@ -39,4 +42,4 @@ If you want to make changes to CSS and JavaScript, and watch for those changes, 
 
 ## Technical notes
 
-The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator.
+The design history uses the [NHS Digital Service Manual](https://service-manual.nhs.uk/) and the [Eleventy](https://www.11ty.dev) static site generator.
