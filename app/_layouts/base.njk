@@ -28,12 +28,12 @@
 {% endblock %}
 
 {% block beforeContent %}
-  {{ appBreadcrumbs({
+  {# {{ appBreadcrumbs({
     classes: "govuk-!-display-none-print",
     title: title,
     items: collections.all,
     key: eleventyNavigation.key
-  }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }}
+  }) if eleventyNavigation and eleventyNavigation.key and eleventyNavigation.parent }} #}
 {% endblock %}
 
 {% set mainClasses = mainClasses | default("govuk-main-wrapper--auto-spacing") %}
