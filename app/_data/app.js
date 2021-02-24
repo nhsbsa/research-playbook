@@ -1,3 +1,3 @@
 module.exports = {
-  productName: 'Service design history'
+  productName: 'Digital playbook'
 }
