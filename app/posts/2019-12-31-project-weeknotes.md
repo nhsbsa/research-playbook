@@ -4,11 +4,11 @@ description: How to use weeknotes to document the projeect or your own progress.
 date: 2021-02-24
 ---
 
-## What are weeknotes?
+## What are weeknotes
 
 We use weeknotes to inform the people we’re working with about our progress, issues we’re dealing with, and what we’re planning to do. They can be a really useful way to update people you deal with directly, but they can also be shared more widely with people who are less directly involved in a day to day basis.
 
-## What makes a good weeknote?
+## What makes a good weeknote
 
 A good weeknote:
 
