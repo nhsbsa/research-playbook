@@ -21,11 +21,11 @@ If you get stuck whilst following these steps and you need help, you can:
   
 ## 1\. Go to the page you want to edit
 
-At the bottom of every page in the Design System you will find a section called ‘Help improve this page’.
+At the bottom of every page in the Playbook you will find a section called ‘Help improve this page’.
 
 Follow the link to propose a change to the page. This will take you to the page’s Markdown file.
 
-You might be told you need to fork the Design System repository to make changes. This is nothing to worry about. It just means you’re making a copy of the Design System that you can edit. Select “fork this repository and propose changes” to continue.
+You might be told you need to fork the Playbook repository to make changes. This is nothing to worry about. It just means you’re making a copy of the Playbook that you can edit. Select “fork this repository and propose changes” to continue.
 
 ![Screenshot of the 'folk this repository' notification, with button highlighted](</images/github-change/fork-this-repo.png>)
 
@@ -57,13 +57,13 @@ You’ll be shown a confirmation page where you can review the changes you’ve 
 
 If you spot a mistake, you can go back to the previous page and correct it.
 
-If you are happy with your changes, select ‘Create pull request’. You’ll have one more chance to review your change on the next page before you submit it to the GOV.UK Design System team to review.
+If you are happy with your changes, select ‘Create pull request’. You’ll have one more chance to review your change on the next page before you submit it to the NHSBSA Playbook team to review.
 
 ![Create pull request view in GitHub showing a before and after view of the file you have changed and a button labelled create pull request.](</images/github-change/create-pull-request-first-view-github.png>)
 
 ## 5\. Create a pull request
 
-A pull request is a request to the GOV.UK Design System team to add (‘pull’) your changes into the project and publish them in the Design System.
+A pull request is a request to the NHSBSA Playbook team to add (‘pull’) your changes into the project and publish them in the Playbook.
 
 Once you’ve created a pull request, your proposed change and any comments you’ve written will be publicly visible meaning that anyone can see them on GitHub.
 
@@ -75,7 +75,7 @@ Once you’re happy, select ‘create pull request’.
 
 ## 6\. Wait for the team to review your pull request
 
-The GOV.UK Design System team will be notified of your suggestion and will review it at their next triage session, which happens every Wednesday.
+The NHSBSA team will be notified of your suggestion and will review it.
 
 The team will either:
 
