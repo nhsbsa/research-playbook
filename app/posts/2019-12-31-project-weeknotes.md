@@ -1,6 +1,6 @@
 ---
 title: Project Weeknotes
-description: How to use weeknotes to document the projeect or your own progress.
+description: How to use weeknotes to document the project or your own progress.
 date: 2021-02-24
 ---
 
