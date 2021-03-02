@@ -5,5 +5,6 @@ new Search($searchContainer).init()
 
 window.onload = function () {
   document.documentElement.classList.remove('no-js')
-  window.GOVUKFrontend.initAll()
+  // window.GOVUKFrontend.initAll()
+  // ^ Throws an error — is it required? Fix or remove.
 }

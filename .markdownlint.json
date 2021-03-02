@@ -1,0 +1,33 @@
+{
+  "MD003": {
+    "style": "atx"
+  },
+  "MD013": false,
+  "MD024": {
+    "siblings_only": true
+  },
+  "MD029": false,
+  "MD031": false,
+  "MD032": false,
+  "MD033": {
+    "allowed_elements": [
+      "caption",
+      "del",
+      "figcaption",
+      "figure",
+      "img",
+      "kbd",
+      "mark",
+      "s",
+      "table",
+      "tbody",
+      "td",
+      "tfoot",
+      "th",
+      "thead",
+      "tr"
+    ]
+  },
+  "MD041": false,
+  "default": true
+}
