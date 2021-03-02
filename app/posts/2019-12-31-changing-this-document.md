@@ -18,7 +18,7 @@ If you get stuck whilst following these steps and you need help, you can:
 
 * get in touch on [\#playbook channel](<https://nhsbsadigitalservices.slack.com/app_redirect?channel=playbook>) on the NHSBSA Slack
 * catch one of the design team in person at the communities of practice
-  
+
 ## 1\. Go to the page you want to edit
 
 At the bottom of every page in the Playbook you will find a section called ‘Help improve this page’.
