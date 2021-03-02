@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "2gua.rainbow-brackets",
+    "anweber.vscode-tidyhtml",
+    "bierner.markdown-checkbox",
+    "bierner.markdown-emoji",
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-yaml-preamble",
+    "chintans98.markdown-jira",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "github.vscode-pull-request-github",
+    "jebbs.markdown-extended",
+    "jerriepelser.copy-markdown-as-html",
+    "maxvanderschee.web-accessibility",
+    "mkaufman.htmlhint",
+    "mrmlnc.vscode-attrs-sorter",
+    "oderwat.indent-rainbow",
+    "transnano.markdown-jira-preview",
+    "yzhang.markdown-all-in-one"
+  ]
+}
