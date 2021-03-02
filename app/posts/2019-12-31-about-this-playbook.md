@@ -3,6 +3,8 @@ title: About this Playbook
 description: Why we've written this and why its useful
 date: 2021-02-24
 ---
+[[toc]]
+
 ## This Playbook
 
 This Playbook is our reference for who we are and the way we do things. Something canonical that tells us what the current “right way” to do things is.

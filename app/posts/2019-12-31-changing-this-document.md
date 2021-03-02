@@ -3,6 +3,7 @@ title: Propose a content change using GitHub
 description: How to propose changes to this document
 date: 2021-02-24
 ---
+[[toc]]
 
 ## How we manage content in this playbook
 

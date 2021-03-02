@@ -3,6 +3,7 @@ title: Contributor Code of Conduct
 description: Our expectations of contributing to this community
 date: 2021-02-24
 ---
+[[toc]]
 
 ## Our standards
 
