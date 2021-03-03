@@ -42,45 +42,25 @@ A good weeknote:
 
 ### Learned things
 
-<<<<<<< HEAD
-*What are the main highlights this week? Have you hit any milestones, or overcome any significant blockers? What decisions have been made? Do you have any images to show progress? (e.g. a photo from a workshop, or a screenshot of something that’s been built?).*
-=======
 - Have the team learned anything from a retro?
 - Did anything happen that you didn’t expect?
 - Have the team made any changes to how the team operates?
 - Have the team uncovered anything new from user research?
 - Does anyone from the team have any personal reflections that they’d like to share?
->>>>>>> 87f02547bbc4343e2825fe1e635dba1559b67f50
 
 ### Difficulties
 
-<<<<<<< HEAD
-*Have the team learned anything from a retro? Did anything happen that you didn’t expect? Have the team made any changes to how the team operates? Have the team uncovered anything new from user research? Does anyone from the team have any personal reflections that they’d like to share?*
-=======
 - What challenges or issues does the wider project team need to be aware of?
 - How are you dealing with them?
 - What help do you need - either from within the project team or elsewhere?
->>>>>>> 87f02547bbc4343e2825fe1e635dba1559b67f50
 
 ### Achievements
 
-<<<<<<< HEAD
-*What challenges or issues does the wider project team need to be aware of? How are you dealing with them What help do you need - either from within the project team or elsewhere?*
-=======
 - Are there any team achievements that need recognising?
 - Are there any individuals you want to recognise? (they don’t need to be inside the core project team - they could be someone from a different department who helped you out this week).
->>>>>>> 87f02547bbc4343e2825fe1e635dba1559b67f50
 
 ### What’s next
 
-<<<<<<< HEAD
-*Are there any team achievements that need recognising? Are there any individuals you want to recognise? (they don’t need to be inside the core project team - they could be someone from a different department who helped you out this week).*
-
-### **What’s next**
-
-*What are you planning to deliver in the next sprint? When is the next show and tell? What key meetings are coming up?*
-=======
 - What are you planning to deliver in the next sprint?
 - When is the next show and tell?
 - What key meetings are coming up?
->>>>>>> 87f02547bbc4343e2825fe1e635dba1559b67f50
