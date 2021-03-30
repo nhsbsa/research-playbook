@@ -11,7 +11,7 @@ This Playbook is our reference for who we are and the way we do things. Somethin
 
 Whether you work for the NHSBSA, a delivery partner working alongside us, or a comissioner of services, this Playbook is for you. To help you understand us and how we can work together.
 
-We continually update the principles and guides in our Playbook. Because we’re always exploring better ways to get things done. What’s written here is the way we do things now. Until we find something better, and write that down.
+We continually update the principles and guides in our Playbook. We’re always exploring better ways to get things done. What’s written here is the way we do things now. Until we find something better, and write that down.
 
 ## Updating the Playbook
 
