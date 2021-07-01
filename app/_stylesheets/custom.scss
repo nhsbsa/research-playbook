@@ -87,3 +87,18 @@ a.nhsuk-footer__list-item-link:visited {
   border-bottom: 2px solid #005eb8;
 }
 /* /. */
+
+// Style changes for the sidenav within a post
+.nhsbsa-layout {
+  position: relative;
+
+  &__main {
+    float: right;
+  }
+
+  .table-of-contents {
+    position: absolute;
+    left: 0;
+    width: 280px;
+  }
+}
