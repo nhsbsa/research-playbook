@@ -89,16 +89,18 @@ a.nhsuk-footer__list-item-link:visited {
 /* /. */
 
 // Style changes for the sidenav within a post
-.nhsbsa-layout {
-  position: relative;
+@media only screen and (min-width: 898px) {
+  .nhsbsa-layout {
+    position: relative;
 
-  &__main {
-    float: right;
-  }
+    &__main {
+      float: right;
+    }
 
-  .table-of-contents {
-    position: absolute;
-    left: 0;
-    width: 280px;
+    .table-of-contents {
+      position: absolute;
+      left: 0;
+      width: 280px;
+    }
   }
 }
