@@ -7,11 +7,13 @@ date: 2021-02-24
 
 ## This Playbook
 
-This Playbook is our reference for who we are and the way we do things. Something canonical that tells us what the current “right way” to do things is.
+This Playbook is our reference for who we are and the way we do things at the NHS Business Services Authority (NHSBSA). The information is a collective effort from the User Research team and documents the current “right way” to do things.
 
-Whether you work for the NHSBSA, a delivery partner working alongside us, or a comissioner of services, this Playbook is for you. To help you understand us and how we can work together.
+Whether you work for the NHSBSA, a delivery partner working alongside us, or a comissioner of services, this Playbook is for you. 
 
-We continually update the principles and guides in our Playbook. Because we’re always exploring better ways to get things done. What’s written here is the way we do things now. Until we find something better, and write that down.
+[Our values](/values) are the bedrock of our work and by sharing them and our ways of working, we hope to help you understand us and how we can work together.
+
+We continually update the guides in our Playbook because we’re always exploring how to improve our practice. 
 
 ## Updating the Playbook
 
