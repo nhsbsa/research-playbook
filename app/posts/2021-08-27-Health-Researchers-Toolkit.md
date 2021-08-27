@@ -31,7 +31,8 @@ But more frequently, using 'Design Thinking' methods to aid team dynamics, busin
 ## Toolkits
 * [IDEO's Design Kit](https://www.designkit.org/methods)
 * [18F Method Cards](https://methods.18f.gov/) 18F is basically like the US version of GDS.
-* [Digital Society School Design Toolkit - Ansterdam University of Applied Sciences](https://toolkits.dss.cloud/design/)
+* [Human Centred Design Tools - Victorian Government, Australia](https://www.vic.gov.au/methods-human-centred-design-tools-and-references)
+* [Digital Society School Design Toolkit - Amsterdam University of Applied Sciences](https://toolkits.dss.cloud/design/)
 * [Open Innovation Toolkit - Mozilla ](https://toolkit.mozilla.org/methods/)
 * [Microsoft Inclusive Design](https://www.microsoft.com/design/inclusive/)
 * [Design Practice Methods  -  Royal Melbourne Institute of Technology](https://www.designpracticemethods.rmit.edu.au/)
