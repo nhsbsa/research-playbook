@@ -1,6 +1,6 @@
 ---
 title: Being a UR in the NHS BSA
-description:Useful hints and tips to make life in digital easier 
+description: Useful hints and tips to make life in digital easier 
 date: 2021-27-08
 ---
 
@@ -18,7 +18,7 @@ Sarah Stokes: “The NHSBSA user research community is for anyone involved in us
 
 We also have a Slack channel, where people can share a quick message or question if they need to.” 
 
-UR drop-in surgery
+## UR drop-in surgery
 
 The UR drop-in surgery takes place every week – either Wednesday at 10.30am, then the next week Thursday at 3pm. This is a more informal get together of URs than the community, as we don’t follow a set agenda. The purpose of this meeting is to socialise with other URs, and to get help with any research specific issues you may be having – basically to replace the ‘can I just grab you for a minute?’ chats from the office. If there’s something you’re really keen to talk about you can always mention it in the Slack channel prior to the call, but other than that there’s no set plan. 
 Even if you don’t have a specific problem or thing you want to talk about, if you’re free please do feel free to come along and just listen. You’re also under no obligation to stay for the full 5 minutes – come and go as you please.
@@ -59,7 +59,7 @@ Telephone: 0300 330 3330
 Email: nhsbsa.ITServiceDesk1@nhs.net
 
 
-Working in an Agile team – where do URs fit in? Who should you be working with?
+## Working in an Agile team – where do URs fit in? Who should you be working with?
 At the BSA, our digital teams follow an Agile methodology in their work. There are tons of resources available online about Agile, and you’ve probably had or will have some training with Jon McNestrie as part of starting at the BSA about Agile. To break it down, working in an Agile way means working in short bursts, or two week sprints. The idea is to do little and often, working collaboratively with others, not planning too far ahead and being adaptable to change.
 
 For a UR, you’ll never really be only be working in a 2-week sprint – for example, you’ll always have to keep a focus on the next sprint, or the one after, in order to save enough time to recruit effectively. You’ll also likely have a loose research plan that will span over a few sprints, though it’s important not to have this set in stone in case there is something that means you need to deviate from this. 
