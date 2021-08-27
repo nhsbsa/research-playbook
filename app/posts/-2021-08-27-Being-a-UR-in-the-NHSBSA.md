@@ -6,9 +6,6 @@ date: 2021-27-08
 
 [[toc]]
 
-
-# Being a UR within NHSBSA Digital
-
 ## Community 
 Every two weeks we hold a user research community meeting. This is open to all URs within digital, including contractors. During these sessions we usually follow an agenda, whereby one or more URs present something back to the rest of the community – for example, something they’ve been working on, or have worked on in the past. Because we all work on different teams, communities are really valuable opportunities to get to know one another and find out what we’re all working on. They aren’t compulsory, so if you have a particularly heavy workload one week then it’s ok not to attend. 
 
